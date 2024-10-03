@@ -2,13 +2,14 @@ import React from 'react';
 import { PropTypes } from 'prop-types'
 
 const TimeLineItem = (props) => {
-    const { date, title, text } = props;
+    const { date, title, text, company } = props;
 
     return (
         <div className="timeline-item">
             <div className="circle-dot"></div>
             <h6 className="timeline-date"><i className="fa fa-calendar"></i> {date}</h6>
             <h4 className="timeline-title">{title}</h4>
+            <h4 className="timeline-title">{company}</h4>
             <p className="timeline-text" dangerouslySetInnerHTML={{ __html: text }} />
         </div>
     );
@@ -17,6 +18,7 @@ const TimeLineItem = (props) => {
 TimeLineItem.typeProps = {
     date: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
 }
 

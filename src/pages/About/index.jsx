@@ -23,7 +23,7 @@ const About = ({ data }) => {
         const request = new XMLHttpRequest();
         request.open(
             "POST",
-            "https://discord.com/api/webhooks/1033534572060745779/k-4Oz4IOPNF174Ty7UYdWtwI3q12Ltjd4KPh9GOumuaF2oVWUb61syo88p1KiTBPbj_W",
+            // "https://discord.com/api/webhooks/1033534572060745779/k-4Oz4IOPNF174Ty7UYdWtwI3q12Ltjd4KPh9GOumuaF2oVWUb61syo88p1KiTBPbj_W",
         );
         // replace the url in the "open" method with yours
         request.setRequestHeader("Content-type", "application/json");
@@ -56,6 +56,7 @@ const About = ({ data }) => {
                                 <div className="about-text padd-15">
                                     <h2 dangerouslySetInnerHTML={{ __html: data.subTitle }} />
                                     <p dangerouslySetInnerHTML={{ __html: data.description }} />
+
                                 </div>
                             </div>
                             <div className='row padd-15 skills-list shadow-dark'>
@@ -86,8 +87,6 @@ const About = ({ data }) => {
                             <br />
                             <div className="row">
                                 <div className="buttons padd-15">
-                                    <span style={{ cursor: "pointer" }} className="btn" onClick={saveFile}>Download Cv</span>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;
                                     <span style={{ cursor: "pointer" }} className="btn hire-me" onClick={() => onClickHireMe("contact")}>Hire me</span>
                                 </div>
                             </div>

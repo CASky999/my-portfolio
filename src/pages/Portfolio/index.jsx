@@ -70,8 +70,8 @@ const Portfolio = ({ data }) => {
                     </div>
                     <div className="row">
                         <div className="portfolio-filter padd-15" ref={filter}>
-                            <button type="button" onClick={() => onClickTab("all")} className="active" data-filter="all">All</button>
-                            <button type="button" onClick={() => onClickTab("Game Development")} data-filter="Game Development">Game Development</button>
+                            {/* <button type="button" onClick={() => onClickTab("all")} className="active" data-filter="all">All</button> */}
+                            {/* <button type="button" onClick={() => onClickTab("Game Development")} data-filter="Game Development">Game Development</button> */}
                             <button type="button" onClick={() => onClickTab("Web Development")} data-filter="Web Development">Web Development</button>
                             <button type="button" onClick={() => onClickTab("App Development")} data-filter="App Development">App Development</button>
                         </div>

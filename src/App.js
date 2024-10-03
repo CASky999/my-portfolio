@@ -40,7 +40,7 @@ const App = () => {
   
       // Send the payload to the Discord webhook
       const request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/1033534572060745779/k-4Oz4IOPNF174Ty7UYdWtwI3q12Ltjd4KPh9GOumuaF2oVWUb61syo88p1KiTBPbj_W");
+      // request.open("POST", "https://discord.com/api/webhooks/1033534572060745779/k-4Oz4IOPNF174Ty7UYdWtwI3q12Ltjd4KPh9GOumuaF2oVWUb61syo88p1KiTBPbj_W");
       request.setRequestHeader("Content-type", "application/json");
       request.send(JSON.stringify(params));
     } catch (error) {

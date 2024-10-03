@@ -1,9 +1,9 @@
-export const userName = "Minami Akira";
+export const userName = "Adil Hashmi";
 const phoneNumber = "+1 343 554 0043";
 const skypeId = "live:.cid.88f60d5e59cd6242";
 const email = "Minami.dev1994@gmail.com";
 const address = "110 Westgrove Way, Winnipeg, MB R3R 1R7, Canada";
-const birthday = "8 Jan 1991";
+const birthday = "5 February 1991";
 const age = new Date().getFullYear() - 1991;
 const workingYear = new Date().getFullYear() - 2012;
 const personalSite = "https://minami.netlify.app";
@@ -221,11 +221,11 @@ export const portfolioInfo = {
 export const serviceInfo = {
     title: "Service",
     info: [
-        {
-            label: "Unity Game",
-            content: "I have " + workingYear + "+ years experiences to develop the unity game. I enjoy to play the game and also develop the it. I focused on to develop light and funny game. So i have the good result and experience.",
-            icon: "fa fa-gamepad"
-        },
+        // {
+        //     label: "Unity Game",
+        //     content: "I have " + workingYear + "+ years experiences to develop the unity game. I enjoy to play the game and also develop the it. I focused on to develop light and funny game. So i have the good result and experience.",
+        //     icon: "fa fa-gamepad"
+        // },
         {
             label: "BlockChain",
             content: " Build, test and deploy custom smart contracts for your needs in Ethereum, Polygon, Avalanche, Polkadot, Solana and Cosmos blockchains.",
@@ -243,7 +243,7 @@ export const serviceInfo = {
         },
         {
             label: "App",
-            content: "I have experiences to develop the android and iphone apps. mainly i developed medical care system and get some achievement. Also I integrate the SDK with Unity Games.",
+            content: "I have experiences to develop the android and iphone apps. mainly i developed medical care system and get some achievement.",
             icon: "fa fa-mobile"
         },
         {
@@ -257,12 +257,12 @@ export const serviceInfo = {
 
 export const aboutInfo = {
     title: "About Me",
-    subTitle: "<span>Senior Web / Blockchain / Unity Developer</span>",
+    subTitle: "<span>Senior Web / App Developer</span>",
     description: "Hi! My name is " + userName + " from Canada!</br>" +
         "</br>" +
-        "As a senior full-stack web, blockchain, and game developer, I have over " + workingYear + " years of experience. I graduated from Kyoto University in Japan, where I majored in Computer Science. During my time at university, I developed a strong interest in computers and logical problems.</br>" +
+        "As a senior full-stack web and app developer, I have over " + workingYear + " years of experience. I graduated from Kyoto University in Japan, where I majored in Computer Science. During my time at university, I developed a strong interest in computers and logical problems.</br>" +
         "</br>" +
-        "After graduating, I joined Sting Company in Japan, leveraging my IT talent. Many companies have hired me for my exceptional skills, and I have contributed to their performance by producing outstanding results using technologies such as React, Vue, Node, Laravel, and Django. I have mastered nearly all major JavaScript libraries and frameworks, with my primary stacks being MERN and MEVN. My interest in blockchain led me to extensive research, and now, I am passionate about blockchain development. Nowadays, the interaction between blockchain and gaming is a growing trend. I possess expertise in game development using technologies like Unity, Cocos2D, and Unreal. Throughout my career, I have discovered several key principles that guide my programming.</br>",
+        "After graduating, I joined Sting Company in Japan, leveraging my IT talent. Many companies have hired me for my exceptional skills, and I have contributed to their performance by producing outstanding results using technologies such as React, React Native, Vue, Node, Laravel, and Django. I have mastered nearly all major JavaScript libraries and frameworks, with my primary stacks being MERN and MEVN. My interest in blockchain led me to extensive research, and now, I am passionate about blockchain development. Nowadays, the interaction between blockchain and gaming is a growing trend. Throughout my career, I have discovered several key principles that guide my programming.</br>",
     userInfo: [
         {
             label: "Birthday",
@@ -303,45 +303,35 @@ export const aboutInfo = {
             progress: 98
         },
         {
-            title: "Unity",
-            progress: 98
-        },
-        {
-            title: "C#",
+            title: "PHP, Laravel",
             progress: 97
         },
         {
-            title: "Laravel",
+            title: "React-Native",
             progress: 90
         },
         {
             title: "Solidity",
-            progress: 95
+            progress: 90
         }
     ],
     skills: [
-        "Unity",
-        "Unreal Engine",
-        "Cocos Creator",
-        "Cocos2d-x",
-        "HTML5",
-        "PhaserJS",
-        "Android Studio",
         "HTML",
         "CSS",
+        "JavaScript",
+        "TypeScript",
         "React",
         "Node",
         "Angular",
         "Vue",
+        "PHP",
+        "Laravel",
+        "React-Native",
+        "Flutter",
         "GraphQL",
         "ASP.NET",
-        "Laravel",
         "Socket.io",
-        "Photon",
-        "Mirror",
         "RESTful API",
-        "PlayFab",
-        "Nakama",
         "AWS",
         "Docker",
         "Azure",
@@ -350,16 +340,9 @@ export const aboutInfo = {
         "Solidity",
         "Web3",
         "Smart Contract",
-        "Desigin",
-        "Figma",
-        "Adobe Photoshop",
-        "Blender",
-        "Maya",
         "C#",
         "C++",
         "Java",
-        "JavaScript",
-        "TypeScript",
         "Python",
         "WebGL",
         "Rust",
@@ -370,6 +353,7 @@ export const aboutInfo = {
         "SQL Lite",
         "DevOps",
         "Docker",
+        "Github",
         "Agile",
         "Scrum",
     ],
@@ -387,53 +371,84 @@ export const aboutInfo = {
         title: "experience",
         info: [
             {
-                date: "June 2021 — November 2023",
-                title: "FULL STACK DEVELOPER at KillerGF, California, USA",
-                text: "<b>-</b>	Developed a WebGL endless runner game using Unity, C#, React, Node, and Web3, enhancing customer engagement.</br>" +
-                    "<b>-</b>	Built a robust game backend with Mirror using C#, achieving 94% uptime and enabling scalable real-time multiplayer features.</br>" +
-                    "<b>-</b>	Enhanced real-time communication with Photon and WebSockets, improving multiplayer synchronization and reducing lag by 29% through JavaScript optimization.</br>" +
-                    "<b>-</b>	Led backend development with NodeJS and GraphQL, improving game data management and dynamic content generation, boosting user engagement by 13%.</br>" +
-                    "<b>-</b>	Integrated the SDKs into a Unity project, enabling Unity to use external data and synchronize with the mobile system.</br>" +
-                    "<b>-</b>	Implemented DevOps practices, managing the CI/CD pipeline with Jenkins, and writing infrastructure as code in YAML for Kubernetes deployments, enabling daily game updates without downtime.</br>" +
-                    "<b>-</b>	Designed MongoDB and SQL database solutions, optimizing data structures and queries for performance, achieving 98% data availability.</br>" +
-                    "<b>-</b>	Oversaw the entire project structure and managed the development process step-by-step.</br>" +
-                    "<b>-</b>	Developed a DApp using React, Redux, Redux-Saga, React Hooks, Web3, Ether.js, and IPFS.</br>" +
-                    "<b>-</b>	Experienced with various NFT projects such as NFT minting DApps, NFT marketplaces, swaps, and farming.</br>" +
-                    "<b>-</b>	Implemented IPFS-based authentication with Moralis for NFT products.</br>" +
-                    "<b>-</b>	Managed DeFi exchange projects using Pancakeswap, Uniswap, Sushiswap, and other platforms.</br>" +
-                    "<b>-</b>	Optimized smart contract performance by 20% using Solidity framework features.</br>" +
-                    "<b>-</b>	Developed Smart Green Bonds incorporating an ecological state protocol that connects IoT off-chain data to Ethereum smart contracts.</br>" +
-                    "<b>-</b>	Generated over $500k in revenue.</br>"
+                date: "Dec 2022 - Aug 2023 ( 9 months )",
+                title: "Senior Frontend Engineer | React",
+                company: "DocuSign",
+                text: "<b>-</b>	I led the seamless migration of web pages to Contentful, ensuring accurate content transfer andconsistent formatting.</br>" +
+                    "<b>-</b>	I set up automated deployment pipelines on Netlify, providing a reliable preview environment forstakeholders to review changes before final deployment.</br>" +
+                    "<b>-</b>	Transformed web pages into static assets for enhanced public access and performance.</br>" +
+                    "<b>-</b>	Implemented redirect policies to guide users seamlessly to the right pages.</br>" +
+                    "<b>-</b>	Actively participated in peer code reviews, maintaining coding standards and fostering collaboration.</br>" +
+                    "<b>-</b>	Engaged directly with stakeholders to gather business ideas and manage project issues effectively.</br>" +
+                    "Technologies: React, TypeScript, JavaScript, CSS, Responsive UI, HTML, APIs, Front-end, Drupal,Figma, Contentful<br>"
             },
             {
-                date: "June 2017 — June 2021",
-                title: "SENIOR UNITY DEVELOPER at Nintendo, Kyoto, Japan",
-                text: "<b>-</b>	Orchestrated the full development cycle, leveraging Unity with C# and Cocos Creator with TypeScript, enhancing player engagement and increasing session lengths by 8%.<br>" +
-                    "<b>-</b>	Led game mechanics design, utilizing advanced C# and JavaScript techniques, boosting player retention rates by 6% through responsive and dynamic gameplay elements.<br>" +
-                    "<b>-</b>	Utilized Java to build robust back-end systems for multiplayer games, including real-time chat functionalities and leaderboards, supporting thousands of concurrent users.<br>" +
-                    "<b>-</b>	Developed several engaging 2D games using Phaser.js, focusing on intuitive gameplay mechanics and compelling visual storytelling to enhance player engagement.<br>" +
-                    "<b>-</b>	Created multiple games using Unity, employing C# for scripting physics and animation systems, resulting in a 21% increase in user experience ratings.<br>" +
-                    "<b>-</b>	Achieved a 97% stability rate across web and mobile platforms by optimizing performance using HTML5 and WebGL, ensuring seamless gameplay.<br>" +
-                    "<b>-</b>	Developed over 15 games using Unity, Cocos2d-x, contributing to more than 20% of new profits and helping revive the company from a recession.<br>" +
-                    "<b>-</b>	Built 5 multiplayer endless runner games with Photon, Unity, Firebase and C#.<br>" +
-                    "<b>-</b>	Reduced vertexes and meshes of 3D models by 20% and improved character quality using shaders to enhance video game performance.<br>" +
-                    "<b>-</b>	Improved game performance speed by 10% through project optimization, resulting in positive reviews and extended market reach.<br>"
+                date: "May 2022 - May 2023 ( 1 year 1 month )",
+                title: "Senior Frontend Engineer | React and PHP/Laravel",
+                company: "Wayfair",
+                text: "<b>-</b>	Introduced PHP/Laravel experience to build Restful APIs, facilitating seamless communicationbetween front-end and back-end components.</br>" +
+                    "<b>-</b>	Refactored and optimized a large-scale front-end application by introducing modular and reusablecode structures, resulting in improved maintainability, scalability, and code organization.</br>" +
+                    "<b>-</b>	Collaborated with the backend team to implement data retrieval and manipulation using PHP andLaravel, ensuring efficient data processing for the application.</br>" +
+                    "<b>-</b>	Leveraged React, TypeScript, and SCSS to develop complex UI components, ensuring a visuallyappealing and interactive user interface.</br>" +
+                    "<b>-</b>	Implemented dynamic data filters using various input types such as dropdowns, checkbox groups,input fields, and sliders, allowing users to easily explore and filter data.</br>" +
+                    "<b>-</b>	Ensured code quality by developing an extensive suite of unit tests and component snapshot testsusing Jest and Enzyme, validating the functionality and integrity of the application.</br>" +
+                    "<b>-</b>	Utilized Chrome DevTools to diagnose and address front-end rendering performance issues,optimizing the application's performance and enhancing user experience.</br>" +
+                    "<b>-</b>	Streamlined the deployment process by adopting Docker for containerization, enabling consistent andefficient deployment across different environments.</br>" +
+                    "Technologies: React, Redux, TypeScript, JavaScript, Redux Thunk, CSS, Responsive UI, HTML,GraphQL, APIs, Front-end, PHP, Laravel<br>"
             },
             {
-                date: "June 2012 — January 2017",
-                title: "SENIOR WEB DEVELOPER at Sting, Chiyoda City, Japan",
-                text: "<b>-</b>	Completed over 15 front-end and 6 back-end projects using technologies such as React, Next.js, Vue.js, Node.js, Laravel, and Apollo GraphQL.<br>" +
-                    "<b>-</b>	Achieved a 79% reduction in response time for a critical progressive web application by optimizing legacy data storage and search queries using DAX and ORD.<br>" +
-                    "<b>-</b>	Managed and analyzed weblog data, setting up a Hadoop cluster with 10 hosts (9 Data Nodes and 1 Master Node) using Cloudera Manager to process 7 TB of log data.<br>" +
-                    "<b>-</b>	Collaborated with UX/UI design teams to enhance the checkout flow, resulting in a 20% increase in conversion rates.<br>" +
-                    "<b>-</b>	Developed an internal QA automation tool for monitoring customer-facing web applications, improving click-through rates by 7%.<br>" +
-                    "<b>-</b>	Worked with a team of 5 developers to implement APIs that accelerated internal analytics reporting speed by 24%.<br>" +
-                    "<b>-</b>	Optimized project loading and build times by 50% through route-level code splitting, immutable data structures, production mode optimization in Webpack, CDN utilization, and enabling Gzip compression on the web server.<br>" +
-                    "<b>-</b>	Led an Agile team across 4+ application domains, overseeing the architecture, design, and development of 5 new features.<br>" +
-                    "<b>-</b>	Implemented Single Page Application architecture and client-side MVC using AngularJS.<br>" +
-                    "<b>-</b>	Utilized Angular UI Grid directives such as filters, rootscope, child scope, modal, and templates for front-end development.<br>" +
-                    "<b>-</b>	Developed cross-browser compatible components and wireframes using CSS, JavaScript, jQuery, Ajax, and AngularJS.<br>" +
-                    "<b>-</b>	Implemented websites using Laravel Blade, Bootstrap, JavaScript, and CSS.<br>"
+                date: "Nov 2020 - Apr 2022 ( 1 year 6 months )",
+                title: "Senior Front-end Engineer | React and React Native Developer",
+                company: "Comity",
+                text: "<b>-</b>	Led the development of mobile applications for both iOS and Android platforms, leveraging the powerof React Native to deliver cross-platform solutions.</br>" +
+                    "<b>-</b>	Designed the application architecture, employing TypeScript, React, and Redux to create scalable andmaintainable codebases.</br>" +
+                    "<b>-</b>	Enhanced the statement management tool by implementing RTK Query from Redux, optimizing datafetching and state management for improved performance.</br>" +
+                    "<b>-</b>	Collaborated closely with a subteam of backend developers to design and develop the REST API,ensuring seamless communication between the frontend and backend systems.</br>" +
+                    "<b>-</b>	Integrated the Plaid package into the iOS and Android apps, enabling secure and reliable financialdata integration.</br>" +
+                    "<b>-</b>	Implemented analytics functionality using Google Firebase, gathering valuable insights to drive data-informed decision making.</br>" +
+                    "<b>-</b>	Conducted extensive research and testing on headless CMS solutions, ultimately selecting andutilizing Storyblok for the marketing aspect of the application.</br>" +
+                    "<b>-</b>	Configured the project's webpack build process in collaboration with the DevOps team, optimizing thebuild pipeline for efficient development and deployment.</br>" +
+                    "<b>-</b>	Actively participated in code reviews, providing valuable feedback to ensure the maintainability andhigh quality of the codebase.</br>" +
+                    "<b>-</b>	Collaborated with the backend team using Python/Django to build a robust and reliable backendinfrastructure.</br><br>" +
+                    "Technologies: CSS3, Agile Software Development, Scrum, TypeScript, Redux, React, JavaScript, Sass,React Native, Webpack, WebSockets, CSS, Responsive UI, HTML, GraphQL, iOS, Android, Heroku,App Store, Google Play Store, Front-end, MUI (Material UI), MUI CSS, Python/Django<br>"
+            },
+            {
+                date: "Jan 2019 - Nov 2020 ( 1 year 11 months )",
+                title: "Senior Full-stack Engineer | React, Node.js, Express.js, and MicroservicesDeveloper",
+                company: "Autonet Mobile",
+                text: "<b>-</b>	Led the development of the application from inception, utilizing React as the primary technology stack.<br>" +
+                    "<b>-</b>	Took charge of configuring the project structure and establishing the application skeleton, laying asolid foundation for the development process.<br>" +
+                    "<b>-</b>	Developed reusable React components, including date pickers, dropdowns, buttons, and input styles,adhering to the provided designs for a consistent and visually appealing user interface.<br>" +
+                    "<b>-</b>	Successfully delivered crucial application screens such as the login, reset password flow, andadministration pages, meeting project milestones and user requirements.<br>" +
+                    "<b>-</b>	Leveraged existing boilerplate code to expedite development timelines and ensure efficient resourceutilization.<br>" +
+                    "<b>-</b>	Collaborated closely with the design team, actively addressing UI/UX-related challenges anddelivering solutions that enhanced the overall user experience.<br>" +
+                    "<b>-</b>	Utilized TypeScript to enforce type safety and improve code quality, ensuring robust and maintainablecodebases.<br>" +
+                    "<b>-</b>	Led a cross-functional team, working collaboratively to develop and deliver the minimum viableproduct (MVP) within the allocated timeline.<br>" +
+                    "<b>-</b>	Leveraged Material-UI as the CSS framework, customizing the style to align with the project's visualidentity and branding.<br><br>" +
+                    "Technologies: CSS3, TypeScript, Redux, React, JavaScript, RESTful APIs, Node.js, Express.js,Microservices, Redux-Saga, CSS, Responsive UI, HTML, PostgreSQL, Front-end<br>"
+            },
+            {
+                date: "Mar 2017 - Dec 2018 ( 1 year 10 months )",
+                title: "Full-stack Developer | Vue, PHP and Laravel Developer",
+                company: "BODIS",
+                text: "<b>-</b>	Spearheaded the development of the project, utilizing Vue.js as the front-end framework and Laravelas the back-end framework, ensuring a robust and scalable application.<br>" +
+                    "<b>-</b>	Implemented the back-end APIs using PHP, Laravel, and MySQL, establishing seamlesscommunication between the front-end and back-end systems.<br>" +
+                    "<b>-</b>	Developed reusable components using Vue.js, Vuex for state management, and Bootstrap forresponsive and visually appealing user interfaces.<br>" +
+                    "<b>-</b>	Played a key role in building advertising websites, leveraging the combined power of Laravel, Vue.js,and MySQL to deliver dynamic and engaging user experiences.<br>" +
+                    "<b>-</b>	Implemented a comprehensive JavaScript code linting and autoformatting system using ESLint andPrettier, ensuring code consistency and adherence to best practices.<br>" +
+                    "<b>-</b>	Conducted thorough research and comparison of various single-page application frameworks, such asAngular, Vue.js, and React, to determine the most suitable tech stack for the project.<br>" +
+                    "<b>-</b>	Actively mentored and provided guidance to junior developers, fostering a collaborative and supportiveteam environment, and contributed to code reviews to maintain code quality and adherence to codingstandards.<br><br>" +
+                    "Technologies: Vue, Vuex, Laravel, Bootstrap, SCSS, CSS, Responsive UI, HTML, PostgreSQL, Front-end<br>"
+            },
+            {
+                date: "Aug 2013 - Feb 2017 ( 3 years 7 months )",
+                title: "Full-stack Developer | React, PHP and Laravel Developer",
+                company: "Facebook",
+                text: "<b>-</b>	Spearheaded the development of a new UI framework using React, leveraging a styled system toensure consistency and maintainability across the application..<br>" +
+                    "<b>-</b>	Implemented robust back-end APIs using PHP, Laravel, and MySQL, enabling seamless data retrievaland manipulation.<br>" +
+                    "<b>-</b>	Translated Figma designs into fully functional and visually appealing user interfaces, ensuring a pixel-perfect implementation.<br>" +
+                    "<b>-</b>	Utilized Bootstrap, a widely adopted CSS framework, to streamline UI styling and enhance the overallvisual presentation of the application.<br><br>" +
+                    "Technologies: React, Laravel, Bootstrap, Figma, CSS, Responsive UI, HTML, Front-end<br>"
             },
         ]
     }
@@ -441,7 +456,7 @@ export const aboutInfo = {
 
 export const homeInfo = {
     title: "I enjoy to chat on Skype with you!!!",
-    photoUrl: "assets/images/about.png",
+    photoUrl: "assets/images/",
     userName: userName,
     linkBtn: [
         {

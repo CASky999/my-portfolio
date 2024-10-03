@@ -12,7 +12,7 @@ const TimeLine = (props) => {
                 <div className="timeline-box padd-15">
                     <div className="timeline shadow-dark">
                         {
-                            data.info.map((val, idx) => <TimeLineItem date={val.date} title={val.title} text={val.text}  key={`time-line-${idx}`}/>)
+                            data.info.map((val, idx) => <TimeLineItem date={val.date} title={val.title} company={val.company} text={val.text}  key={`time-line-${idx}`}/>)
                         }
                     </div>
                 </div>
@@ -24,6 +24,7 @@ const TimeLine = (props) => {
 TimeLine.typeProps = {
     date: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
 }
 
