@@ -1,7 +1,7 @@
 export const userName = "Adil Hashmi";
-const phoneNumber = "+1 343 554 0043";
-const skypeId = "live:.cid.88f60d5e59cd6242";
-const email = "Minami.dev1994@gmail.com";
+const phoneNumber = "+1 916 282 9313";
+const skypeId = "live:.cid.ea0e0e144156d05f";
+const email = "bearpig025@gmail.com";
 const address = "110 Westgrove Way, Winnipeg, MB R3R 1R7, Canada";
 const birthday = "5 February 1991";
 const age = new Date().getFullYear() - 1991;
@@ -327,20 +327,16 @@ export const homeInfo = {
             href: "https://join.skype.com/invite/yo0vbSVZibc8"
         },
         {
-            icon: "fa fa-slack",
-            href: "https://join.slack.com/t/newworkspace-zve6235/shared_invite/zt-2kqny32c6-YhFS_4HnmHdUiE0pqVmL2w"
-        },
-        {
             icon: "fa fa-telegram",
-            href: "https://t.me/nightdragon95"
+            href: "https://t.me/GoldMT27"
         },
         {
             icon: "fab fa-discord",
-            href: "https://discord.com/users/1017964676719587388"
+            href: "https://discord.com/users/1156617369263800350"
         },
         {
             icon: "fa fa-github",
-            href: "https://github.com/darlinguui"
+            href: "https://github.com/CASky999"
         },
         // {
         //     icon: "fa fa-twitter",
@@ -350,11 +346,6 @@ export const homeInfo = {
         //     icon: "fa fa-linkedin",
         //     href: "https://www.linkedin.com/in/minami-akira-40646223a/"
         // },
-        {
-            icon: "fa fa-calendar",
-            href: "https://calendly.com/minami-dev1994/minami-akira"
-        },
-
         // {
         //     icon: "fa fa-facebook",
         //     href: "https://www.facebook.com"
