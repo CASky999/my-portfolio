@@ -125,7 +125,7 @@ export const aboutInfo = {
         "</br>" +
         "As a senior full-stack web and app developer, I have over " + workingYear + " years of experience. I graduated from Kyoto University in Japan, where I majored in Computer Science. During my time at university, I developed a strong interest in computers and logical problems.</br>" +
         "</br>" +
-        "After graduating, I joined Sting Company in Japan, leveraging my IT talent. Many companies have hired me for my exceptional skills, and I have contributed to their performance by producing outstanding results using technologies such as React, React Native, Vue, Node, Laravel, and Django. I have mastered nearly all major JavaScript libraries and frameworks, with my primary stacks being MERN and MEVN. My interest in blockchain led me to extensive research, and now, I am passionate about blockchain development. Nowadays, the interaction between blockchain and gaming is a growing trend. Throughout my career, I have discovered several key principles that guide my programming.</br>",
+        "After graduating, I joined Sting Company in Japan, leveraging my IT talent. Many companies have hired me for my exceptional skills, and I have contributed to their performance by producing outstanding results using technologies such as React, React Native, Vue, Node, Laravel, and Shopify. I have mastered nearly all major JavaScript libraries and frameworks, with my primary stacks being MERN and MEVN. My interest in blockchain led me to extensive research, and now, I am passionate about blockchain development. Nowadays, the interaction between blockchain and gaming is a growing trend. Throughout my career, I have discovered several key principles that guide my programming.</br>",
     userInfo: [
         {
             label: "Birthday",
@@ -170,12 +170,12 @@ export const aboutInfo = {
             progress: 97
         },
         {
-            title: "React-Native",
-            progress: 90
+            title: "Shopify",
+            progress: 96
         },
         {
-            title: "Solidity",
-            progress: 90
+            title: "React-Native",
+            progress: 93
         }
     ],
     skills: [
@@ -191,6 +191,7 @@ export const aboutInfo = {
         "Laravel",
         "React-Native",
         "Flutter",
+        "Shopify",
         "GraphQL",
         "ASP.NET",
         "Socket.io",
@@ -234,6 +235,18 @@ export const aboutInfo = {
         title: "experience",
         info: [
             {
+                date: "Sep 2023 - Aug 2024 ( 12 months )",
+                title: "Senior Frontend Engineer | Shopify",
+                company: "Asolvi",
+                text: "<b>-</b>	Led the seamless migration of web pages to Contentful, ensuring accurate content transfer and consistent formatting within Shopify.</br>" +
+                    "<b>-</b>	Established automated deployment pipelines on Netlify, providing a reliable environment for stakeholders to preview changes prior to final deployment.</br>" +
+                    "<b>-</b>	Transformed Shopify pages into static assets, enhancing public access and improving overall performance.</br>" +
+                    "<b>-</b>	Implemented redirect policies in Shopify to guide users seamlessly to relevant pages, improving user experience and retention.</br>" +
+                    "<b>-</b>	Actively participated in peer code reviews, maintaining high coding standards and fostering collaboration among team members.</br>" +
+                    "<b>-</b>	Engaged directly with stakeholders to gather business requirements and effectively manage project issues, ensuring alignment with business objectives.</br>" +
+                    "Technologies: Shopify, JavaScript, CSS, Responsive UI, HTML, APIs, Front-end<br>"
+            },
+            {
                 date: "Dec 2022 - Aug 2023 ( 9 months )",
                 title: "Senior Frontend Engineer | React",
                 company: "DocuSign",
@@ -243,7 +256,7 @@ export const aboutInfo = {
                     "<b>-</b>	Implemented redirect policies to guide users seamlessly to the right pages.</br>" +
                     "<b>-</b>	Actively participated in peer code reviews, maintaining coding standards and fostering collaboration.</br>" +
                     "<b>-</b>	Engaged directly with stakeholders to gather business ideas and manage project issues effectively.</br>" +
-                    "Technologies: React, TypeScript, JavaScript, CSS, Responsive UI, HTML, APIs, Front-end, Drupal,Figma, Contentful<br>"
+                    "Technologies: React, TypeScript, JavaScript, CSS, Responsive UI, HTML, APIs, Front-end, Figma, Contentful<br>"
             },
             {
                 date: "May 2022 - May 2023 ( 1 year 1 month )",
