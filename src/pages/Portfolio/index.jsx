@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from 'react';
+import React, { useContext, useRef, useEffect } from 'react';
 import { StyleModeContext } from '../../context/StyleModeProvider';
 
 import PageTitle from '../../components/PageTitle';
@@ -50,6 +50,9 @@ const Portfolio = ({ data }) => {
         }
     };
 
+    useEffect(() => {
+        onClickTab("Web Development");
+    }, []);
     return (
         <>
             <div className="lightbox" ref={lightbox} onClick={closeLightBox}>
