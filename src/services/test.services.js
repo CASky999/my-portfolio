@@ -190,7 +190,6 @@ export const aboutInfo = {
         "PHP",
         "Laravel",
         "React-Native",
-        "Flutter",
         "Shopify",
         "GraphQL",
         "ASP.NET",
